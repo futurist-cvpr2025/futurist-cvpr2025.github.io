@@ -188,7 +188,8 @@
 <section class="section">
   <div class="container is-max-desktop">
     <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
+<!--       <div class="column is-four-fifths"> -->
+      <div class="column is-full">
         <center><h2 class="title is-3"> FUTURIST: End-to-End Trainable Multimodal Visual Sequence Transformer</h2></center>
         <div class="content has-text-justified">
           <p>
@@ -197,7 +198,7 @@ Our framework employs modality-specific embedders to map inputs into tokens. The
         </div>
         <!-- Image -->
         <div class="has-text-centered">
-          <img src="static/images/overview.png" alt="FUTURIST Architecture" style="width: 100%; max-width: 800px; height: auto;">
+          <img src="static/images/overview.png" alt="FUTURIST Architecture" style="width: 100%; height: auto;">
         </div>
       </div>
     </div>
@@ -207,6 +208,23 @@ Our framework employs modality-specific embedders to map inputs into tokens. The
 
 
 
+<!-- Main Components Section -->
+<section class="section" id="Main-Components">
+  <div class="container is-max-desktop">
+    <center><h2 class="title">Main Components</h2></center>
+    <div class="content has-text-justified">
+      <p>
+        <strong>VAE-free Multimodal Embedder</strong>: Our framework employs a novel tokenization approach that eliminates the dependency on VAE-based tokenizers commonly used in video generation models. This lightweight, hierarchical two-stage embedding process enables efficient end-to-end training while maintaining computational efficiency for multimodal inputs.
+      </p>
+    </div>
+    <!-- Image Section -->
+      <div class="has-text-centered">
+        <img src="static/images/hiera_embedder.png" alt="Modality Embedder" style="width: 100%; height: auto;">
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Main Components Section -->
 
 
 <!-- GIF carousel -->
@@ -261,7 +279,8 @@ booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Patte
 month     = {June},
 year      = {2025},
 pages     = {3793-3803}
-}</code></pre>
+}
+            </code></pre>
       </div>  
   </div>
   <script>
